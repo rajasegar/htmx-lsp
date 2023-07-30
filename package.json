@@ -1,16 +1,25 @@
 {
   "name": "htmx-lsp",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "Language Server for htmx",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run build && npm link",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "htmx",
+    "lsp",
+    "lsp-server",
+    "language server"
+  ],
+  "author": "Rajasegar Chandran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajasegar/htmx-lsp"
+  },
   "dependencies": {
     "vscode-languageserver": "^8.1.0",
     "vscode-languageserver-textdocument": "^1.0.8"
